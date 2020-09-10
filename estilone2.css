@@ -1,0 +1,166 @@
+body
+{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#capa{
+    background:url(img/pexels-pok-rie-1655166.jpg);
+    background-size: cover;
+  
+    width: 100%;
+    height: 100%;
+    text-align: center;
+ }
+ h1{
+    text-transform: uppercase;
+   padding-top:380px;
+   font-size:60px;
+   letter-spacing: 10px;
+    color: rgb(255, 255, 255);
+}
+#sub-capa{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    border-top:10px solid ;
+    margin: 4% 20%;
+       
+   
+ }
+ #no{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    border: solid 2px rgb(30, 141, 233);
+    border-radius: 15px;
+    padding: 5px 10px;
+    
+ }
+ #no:hover{
+    padding:10px 20px ;
+    background-color: rgba(62, 197, 231, 0.623);
+ }
+.icon{ 
+    width:100px;
+    height: 100px;
+ }
+ img{
+
+    width: 500px;
+    height: 300px;
+ }
+#objetivos{
+    background-color: royalblue;
+    padding: 5%;
+}
+p{
+    line-height: 2;
+ }
+ h2{
+   color: rgb(44, 114, 206);
+   font-weight: bold;
+   font-size: 35px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#Informação{
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(7, 31, 58);
+   font-size: 20px;
+   text-transform: uppercase;
+}
+/* FLOAT - LAYOUT COLUNAS */
+.flutuar{
+   float:left;
+   padding: 10px 0 10px 50px;
+   width: 100%;
+   box-sizing: border-box;
+   
+}
+.duas{
+   width: 45%;
+   text-align: center;
+   padding-top:30px ;
+}
+.tres{
+   width: 30%;
+   text-align: center;
+}
+.quatro{
+   width: 23%;
+   text-align: center;
+}
+.img_content{
+   width: 100%;
+   height: 300px;
+}
+iframe{
+   width: 100%;
+}
+.centro{
+   padding-top:7%;
+   box-sizing: border-box;
+}
+/* Cabeçalho */
+#topo{
+   background-color: rgb(53, 150, 142);
+   margin:0;
+   float: left;
+   width: 100%;
+   height: 70px;
+   position: fixed;
+   z-index:2;
+}
+nav{
+   float: right;
+}
+nav ul{
+   float: right;
+   list-style: none;
+   margin:0 30px 12px 0;
+}
+li{
+   float: left;
+   font-size: 18px;
+   padding: 16px 10px 20px 10px;
+   margin:0;
+}
+li a{
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   font-size: 20px;
+   
+}
+li:hover{
+   background-color:  rgb(53, 150, 142);
+   transition: 0.4s;
+   padding: 8px;
+}
+.logo{
+   width: 50px;
+   height: 60px;
+   margin-top: 3px;
+}
+#Contato{
+   background-color: cadetblue;
+}
+div{
+   text-align: center;
+
+}
+.obj{
+   font-family: 'Indie Flower', cursive;
+   color: black;
+}
+#ctt:hover{
+   padding: 5px;
+   transition: 0.5s;
+}
+#ctt{
+   float: right;
+   padding: 16px 10px 20px 10px;
+   margin: 0;
+}
+.img{
+   padding-top: 150px;
+}
